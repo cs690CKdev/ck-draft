@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f92e52f1f8124daa82f2c2bfa36edb30" Name="Diagram1">
+        <EntityTypeShape EntityType="ckDB.addresses" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.branches" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.building_permit" Width="1.5" PointX="9.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.customers" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.delivery_status" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.employees" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.installation" Width="1.5" PointX="9.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.lead_log_file" Width="1.5" PointX="9.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.lead_source" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.leads" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.products" Width="1.5" PointX="9.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.project_class" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.project_status" Width="1.5" PointX="5.25" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.project_type" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.rates" Width="1.5" PointX="12" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.tasks" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.tasks_installation" Width="1.5" PointX="15" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.taxes" Width="1.5" PointX="9.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.total_cost" Width="1.5" PointX="9.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ckDB.users_types" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="ckDB.fk_branches_to_addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_Customers_to_addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_employees_to_brancges" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_permit_number_to_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_delivery_status" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_employees_to_users_types" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_installation_to_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_tasks_installation_to_installation" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_lead_log_file_to_Leads" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_lead_source" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_project_class" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_project_status" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_leads_to_project_type" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_products_to_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_total_cost_to_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.fk_tasks_installation_to_tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.rates_installation" ManuallyRouted="false" />
+        <AssociationConnector Association="ckDB.taxes_leads" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
